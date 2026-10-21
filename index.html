@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Selvakumar P - Full Stack Developer Portfolio">
+  <meta name="theme-color" content="#15162b">
+
+  <title>Selvakumar P | Developer Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#home" class="logo">Selva<span>.</span></a>
+
+    <button class="menu-toggle" id="menu-toggle"
+            aria-label="Toggle navigation"
+            aria-controls="navbar"
+            aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+        <h1>Hi, I'm <span>Selvakumar P</span></h1>
+        <h2>Aspiring Full Stack Developer</h2>
+
+        <p>
+          I build responsive websites and user-friendly web applications.
+          I'm passionate about learning new technologies and solving
+          real-world problems through code.
+        </p>
+
+        <div class="home-buttons">
+          <a href="#projects" class="btn">Explore Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/selvakumar0601"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <!-- Replace with your actual LinkedIn profile URL -->
+          <a href="https://www.linkedin.com/"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- PROFILE IMAGE -->
+      <div class="home-image">
+        <div class="profile-circle">
+          <img src="profile image.jpeg"
+               alt="Selvakumar P profile photo">
+        </div>
+
+        <div class="floating-tag">
+          <i class="fas fa-code"></i>
+          <span>Developer</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+
+      <div class="about-card">
+        <p>
+          I'm a Computer Science Engineering student interested in
+          full-stack web development. I enjoy creating clean,
+          responsive interfaces and learning how frontend and backend
+          technologies work together.
+        </p>
+
+        <p>
+          My current focus is strengthening HTML, CSS, JavaScript,
+          React.js, Node.js, Express.js and MongoDB through hands-on
+          projects.
+        </p>
+
+        <a href="#contact" class="btn">Let's Connect</a>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>My <span>Skills</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h3>HTML5</h3>
+          <p>Semantic structure</p>
+        </article>
+
+        <article class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+          <p>Responsive layouts</p>
+        </article>
+
+        <article class="skill-card">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <p>Interactive websites</p>
+        </article>
+
+        <article class="skill-card">
+          <i class="fab fa-react"></i>
+          <h3>React.js</h3>
+          <p>Frontend fundamentals</p>
+        </article>
+
+        <article class="skill-card">
+          <i class="fab fa-node-js"></i>
+          <h3>Node.js</h3>
+          <p>Backend fundamentals</p>
+        </article>
+
+        <article class="skill-card">
+          <i class="fas fa-database"></i>
+          <h3>MongoDB</h3>
+          <p>Database fundamentals</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">MY RECENT WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-user"></i>
+          </div>
+
+          <h3>Personal Portfolio</h3>
+          <p>
+            A responsive portfolio website showcasing my profile,
+            technical skills, education and projects.
+          </p>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <a href="https://github.com/selvakumar0601/personal-introduction-website"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="project-link">
+            View Source <i class="fas fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-city"></i>
+          </div>
+
+          <h3>Clean Madurai AI</h3>
+          <p>
+            A smart-city waste management project concept for
+            reporting waste, tracking complaints and supporting
+            cleaner public spaces.
+          </p>
+
+          <div class="tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>AI</span>
+          </div>
+
+          <!-- Replace with your actual repository URL -->
+          <a href="https://github.com/selvakumar0601"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="project-link">
+            View Source <i class="fas fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-calculator"></i>
+          </div>
+
+          <h3>Web Calculator</h3>
+          <p>
+            A simple calculator with an intuitive interface
+            for performing basic mathematical operations.
+          </p>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <a href="https://github.com/selvakumar0601/basic-calculator"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="project-link">
+            View Source <i class="fas fa-arrow-right"></i>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION AND EXPERIENCE -->
+    <section class="section" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">MY LEARNING JOURNEY</p>
+        <h2>Education &amp; <span>Experience</span></h2>
+      </div>
+
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <p class="timeline-date">2023 – 2027</p>
+          <h3>B.E. Computer Science Engineering</h3>
+          <p>Pandian Saraswathi Yadav Engineering College</p>
+          <p class="muted">Currently pursuing undergraduate studies</p>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <p class="timeline-date">Internship Project</p>
+          <h3>Web Development Intern</h3>
+          <p>Veda Technology</p>
+          <p class="muted">
+            Developing a responsive personal portfolio website
+            using HTML, CSS and JavaScript.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+        <h2>Contact <span>Me</span></h2>
+        <p>Feel free to reach out for collaboration or opportunities.</p>
+      </div>
+
+      <form id="contact-form" class="contact-form">
+        <div class="form-row">
+          <input type="text"
+                 id="name"
+                 name="name"
+                 placeholder="Your name"
+                 aria-label="Your name"
+                 autocomplete="name"
+                 required>
+
+          <input type="email"
+                 id="email"
+                 name="email"
+                 placeholder="Your email"
+                 aria-label="Your email"
+                 autocomplete="email"
+                 required>
+        </div>
+
+        <input type="text"
+               id="subject"
+               name="subject"
+               placeholder="Subject"
+               aria-label="Subject"
+               required>
+
+        <textarea id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Your message"
+                  aria-label="Your message"
+                  required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+
+        <p id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>
+      &copy; <span id="year"></span> Selvakumar P.
+      Built with passion and code.
+    </p>
+
+    <a href="#home" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
